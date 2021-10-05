@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nitin Kumar</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/png" href="./images/favicon-32x32.png"/>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Astloch' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'> 
+    </head>
+    <body>
+        <header>
+            <div class="navigator_button">
+                <div id="navigator_button"class="close_open_button">
+                    <button id="nav_button_controller" onclick="openSidebar()">&#9776;</button>
+                </div>
+            </div>
+            <nav id="horizontal_nav" style="font-family: 'Audiowide';font-size: 22px;">
+            <div id="vertical_nav_but" class="close_open_button">
+                <span onclick="closeSidebar()">
+                    <button  href="#">&#x2715;</button>
+                </span>
+                <img src="./images/profile.jpg" alt="Nitin kumar" style="width:50%;border-radius: 50%;display: block;float:none;display: block;  margin-left: auto;  margin-right: auto;">
+                <p style="text-align: center;color: white; ">Nitin Kumar</p>
+                <p style="text-align: center;color: white;">M.Tech in Computer Science and Information Security</p>
+            </div>
+            <a id="a_home" class="selected" onclick="callHome()" href="#">Home</a> 
+            <a id="a_css" onclick="callExternal_CSS()" href="#">Education</a> 
+            <a id="a_list" onclick="calllists()" href="#">Project</a> 
+            <a id="a_divis" onclick="calldivision_example()" href="#">About Me</a> 
+            <a id="a_contact" onclick="callContact()" href="#">Contact Me</a>
+        </nav>
+        </header>
+        <div id="h_ome" style="float: left;display:inline;">
+            <div id="profile_card" class="card" style="width:20%;  float: left;display:block;">
+                <img src="./images/profile.jpg" alt="Nitin Kumar" style="width:100%;border-radius: 5%;display: block;">
+                <div class="container" style="float: left;display:inline;">
+                    <h4><b>Nitin Kumar</b></h4> 
+                    <p>M.Tech in Computer Science and Information Security</p> 
+                </div>
+            </div>
+            <div class="card_home" style="background-color: #004e96;padding-top: 0%; padding-left: 0%; margin-left: 0%; height: fit-content; width: 100%;display: inline; text-align: center;">
+                <p  class="texts_home" style="background-color: #ab92e7; padding-left: 5%;font-family: 'Sofia';font-size: 30px; padding-right: 5%; border: 2px solid #004e96; border-radius: 5px;">
+                    Hello! I am Nitin Kumar. I am a Computer Science and Information Security student at International Institute of Information Technology, Hyderabad.       
+                </p>
+            </div>
+            <div>
+                <p>
+                </p>
+            </div>
+        </div>
+        <div id="division_example" style=" height: fit-content;">
+            <div style="font-family: 'Graduate';font-size: 18px;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                    <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                        <div id="deg_year" style="overflow: hidden;">
+                            <div id="inst_branch_learning" style="height:98%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                                <p style="text-align: center;"> Achievements </p>
+                                <p style="text-align: center;"> 
+                                    Except for very few IITs , I have cracked almost all of them (including IIT Bombay , IIT Delhi).
+                                </p>
+                                
+                                <p style="text-align: center;"> 
+                                    Have Cracked all NIT and all IIITs aswell.
+                                </p>
+                                <br>
+                                <p class="hide_details" style="text-align: center;"> </p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                    <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                        <div id="deg_year" style="overflow: hidden;">
+                            <div id="inst_branch_learning" style="height:98%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                                <p style="text-align: center;"> 
+                                    I really enjoy problem solving and have been able to transfer 
+                                    these skills to this 
+                                    relatively new subject without too much difficulty. Logical problem solving has always appealed to me.I believe  this course will help me when studying more advanced topics in this field.
+                                    I am good in time management skills,I like being organised and keeping focus on my subjects and while this can be 
+                                    stressful at times it helps me to focus on deadlines and ensure that all 
+                                    my work is completed on time. I can definitely see myself working in the computer industry as it 
+                                    is such an exciting, dynamic, diverse and ever evolving industry.
+                                </p>
+                                <p class="hide_details" style="text-align: center;"> </p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+                
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                    <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                        <div id="deg_year" style="overflow: hidden;">
+                            <div id="inst_branch_learning" style="height:98%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                                <p style="text-align: center;"> 
+                                    <img src="./images/IMG_20190712_070917.jpg" alt="pic1_myself" style="height:350px">
+                                    <img src="./images/IMG_20191117_191539.jpg" alt="pic2_myself" style="height:350px">
+                                    <img src="./images/IMG_20190731_093731.jpg" alt="pic3_myself" style="height:350px">
+                                    
+                                </p>
+                                <p class="hide_details" style="text-align: center;"> </p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                    <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                        <div id="deg_year" style="overflow: hidden;">
+                            <div id="inst_branch_learning" style="height:98%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                                <p style="text-align: center;"> 
+                                    Personal Interest:</p>
+                                    <p style="text-align: center;"> 
+                                    I like painting, I mean I used to do it in my free time.
+                                    </p>
+                                    <p style="text-align: center;"> 
+                                    Pet Care I had a pet rabbit, with whom i used to spend a lot of my time.
+                                    </p>
+                                    <p style="text-align: center;"> 
+                                    Reading ummm, a lot.</p>
+                                    <p style="text-align: center;">
+                                    Employment:
+                                </p>
+                                <p style="text-align: center;">
+                                    Not Yet.
+                                </p>
+                                <p class="hide_details" style="text-align: center;"> </p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                    <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                        <div id="deg_year" style="overflow: hidden;">
+                            <div id="inst_branch_learning" style="height:98%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                                <p style="text-align: center;"> 
+                                    
+                                    <img src="./images/IMG20181102093540.jpg" alt="MyPet" style="height:350px">
+                                    <img src="./images/IMG_20190326_225410.jpg" alt="MyPet" style="height:350px">
+                                    <img src="./images/IMG20181107200752.jpg" alt="MeOpeningaBag" style="height:350px;">
+                                    
+                                    
+                                </p>
+                                <p class="hide_details" style="text-align: center;"> </p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="div2" > 
+                <p>Acadmic Record</p>
+                <h2 style="text-align: center;  color: white;">B.Tech Semester wise percentage</h2>
+                <table border="1px" class="div1" style="width:100%;box-shadow: none;">
+                    <tr>
+                        <th>S No</th>
+                        <th>Semester</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Semester 1</td>
+                        <td rowspan="2">87.6</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Semester 2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Semester 3</td>
+                        <td rowspan="2">94.55</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Semester 4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Semester 5</td>
+                        <td rowspan="2">95.6</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Semester 6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Semester 7</td>
+                        <td rowspan="2">94.5</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Semester 8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>93.1</td>
+                    </tr>   
+                </table>
+                <h2 style="text-align: center;  color: white;">School Percentage</h2>
+                <table border="1px" class="div1" style="width:100%;box-shadow: none;">
+                    <tr>
+                        <th>S No</th>
+                        <th>Class</th>
+                        <th>Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Higher Secondary </td>
+                        <td >86</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Secondary School</td>
+                        <td >95</td>
+                    </tr>
+                </table>  
+                <h2 style="text-align: center;  color: white;">Skills</h2>
+                <table border="1px" class="div1" style="width:100%;box-shadow: none;">
+                    <tr>
+                        <th>S No</th>
+                        <th>Technical skills</th>
+                        <th>Soft Skills</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>C/C++</td>
+                        <td >Hardworking</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SQL</td>
+                        <td >Excellent Teamwork</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>PHP</td>
+                        <td >Decent Communication</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>CSS</td>
+                        <td >Punctual•</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Javascript</td>
+                        <td >Well organization</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>jQuery</td>
+                        <td >Excellent Time Management</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Ajax </td>
+                        <td >Disciplined</td>
+                    </tr>
+                </table>  
+            </div> 
+            <br>
+        </div>
+        <link href='https://fonts.googleapis.com/css?family=IM Fell Double Pica SC' rel='stylesheet'>
+        <div id="External_CSS">
+            <h1 class="heading">Education</h1>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white; height: 150px;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 25%; background-color:#004e96; text-align: center;  color: white; float: left;display:inline;overflow: hidden; height: 100%;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <p style="text-align: center;color:white;padding-top:2%;align-items:center;">2021 - Present</p> 
+                        <a href="https://www.iiit.ac.in/" style="padding-top : 2%;">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/International_Institute_of_Information_Technology%2C_Hyderabad_logo.png" style="width:42px;height:42px;" alt="IIIT H Logo">
+                            <p style="text-align: center;color: white;">Master's Degree</p>
+                        </a>
+                    </div>
+                </div>
+                <div id="inst_branch_learning" style="overflow: hidden; height: 100%;">
+                    <p style="text-align: center;font-family: 'IM Fell Double Pica SC';font-size: 16px;">International Institute of Information Technology, Hyderabad </p>
+                    <p style="text-align: center;font-family: 'IM Fell Double Pica SC';font-size: 16px;">Computer Science and Information Security</p>
+                    <p style="text-align: center;" class="hide_details">Attending intriguing courses on Linux Operating System, Data Structures & Algorithms for Problem Solving, Probability and Statistics, Software Systems Development and Linear Algebra.</p>   
+                </div>
+            </div>
+            <br>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white; height: 150px;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 25%; background-color:#004e96; text-align: center;  color: white; height: 150px;float: left;display:inline;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <p style="text-align: center;color: white; padding-top :2%;align-items: center;  ">2017-2021</p>
+                        <a href="https://www.amity.edu/" style="padding-top : 2%;">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/f/ff/Amity_University_logo.png" style="width:42px;height:42px;" alt="Amity Logo">
+                            <p style="text-align: center;color: white;">Bachelor's Degree</p>
+                        </a>   
+                    </div>
+                </div>
+                <div id="inst_branch_learning" style="overflow: hidden; height: 100%;">
+                    <p style="text-align: center;font-family: 'IM Fell Double Pica SC';font-size: 16px;">Amity School Of Engineering And Technology</p>
+                    <p style="text-align: center;font-family: 'IM Fell Double Pica SC';font-size: 16px;">Computer Science and Engineering</p>
+                    <p class="hide_details" style="text-align: center;">Got exposed to the domain of Computer Science and learnt the basics like Data structures, C programming, Engineering Mathematics, Operating systems, Database management , Linux and Web development.</p>
+                </div>
+            </div>
+            <br>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white; height: 150px;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 25%; background-color:#004e96; text-align: center;  color: white; height: 150px;float: left;display:inline;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <p style="text-align: center;color: white; padding-top : 2%;align-items: center;  ">2015-2017</p>
+                        <a href="https://no2delhicantt.kvs.ac.in/" style="padding-top : 2%;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Kendriya_Vidyalaya_logo.png" alt="KV Logo" style="width:42px;height:42px;">
+                            <p style="text-align: center;color: white;">High School</p>
+                        </a>
+                    </div>
+                </div>
+                <div id="inst_branch_learning" style="overflow: hidden; height: 100%;">
+                    <p style="text-align: center;font-family: 'IM Fell Double Pica SC';font-size: 16px;">Science and Mathematics</p>
+                    <p style="text-align: center;font-family: 'IM Fell Double Pica SC';font-size: 16px;">Central Board of Secondary Education</p>
+                    <p class="hide_details" style="text-align: center;">Choose Science Stream with Computer Science.</p>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div id="lists" style="font-family: 'Cinzel Decorative';font-size: 22px;">
+            <h1 class="heading">Project</h1>
+            <br>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <div id="inst_branch_learning" style="height:99%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                            <p style="text-align: center;"> PLATFORM TO REQUEST/DO SERVICES</p>
+                            <p style="text-align: center;"> 
+                                It is a platform for people who wish to avail services as pertheir needs from skilled
+                                professional. It saves yourtime by bringing the right person at your doorstep, which
+                                could have been tedious and time consuming task otherwise
+                            </p>
+                            <p class="hide_details" style="text-align: center;"> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <div id="inst_branch_learning" style="height:99%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                            <p style="text-align: center;"> UNIX BASED WEB GRABBER</p>
+                            <p style="text-align: center;"> download website for offline use Learned about Co-operating processes and processes Synchronization</p>
+                            <p class="hide_details" style="text-align: center;"> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <div id="inst_branch_learning" style="height:99%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                            <p style="text-align: center;"> PHP BASED E-COMMERCIAL WEBSITE</p>
+                            <p style="text-align: center;"> Simple E-commercial website to buy and Sell Products</p>
+                            <p class="hide_details" style="text-align: center;"> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>      
+            <br>
+            <br>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <div id="inst_branch_learning" style="height:99%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;"> 
+                            <p style="text-align: center;"> LIVE PROFANITY DETECTION SYSTEM </p>
+                            <p style="text-align: center;">
+                                Profanity Detection is used to detect all swear words present on user screen in
+                                real-time and report them to user(for Parental Control). Made to learn implementation
+                                of image processing
+                            </p>
+                            <p class="hide_details" style="text-align: center;"> </p>
+                        </div>       
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>            
+            <br>
+            <br>
+            <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; background-color:#ab92e7; width: 100%;  text-align: center;  color: white;height: fit-content;">
+                <div class="edu_card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;  width: 100%; background-color:#004e96; text-align: center;  color: white; height: fit-content;float: left;display:inline;">
+                    <div id="deg_year" style="overflow: hidden;">
+                        <div id="inst_branch_learning" style="height:99%; width: 98%;margin-left: 1%; margin-right: 1%; background-color:#ab92e7;text-align: center;">
+                            <p style="text-align: center;"> UNDETECTABLE PHISHING PAGES </p>
+                            <p style="text-align: center;">
+                                Identified many security flaws loopholes in phishing detection systems and finally
+                                came up with pages which were not detected by browser. made to Just to know more about it
+                            </p>
+                            <p class="hide_details" style="text-align: center;"> </p>
+                        </div>
+                                        
+                    </div>
+                </div>       
+            </div>
+            <br>
+            <br>
+            <br>                
+            <br>
+            <br>
+            <br>
+        </div>
+        <style>
+            
+            
+            
+            </style>
+        <div id="Contact_me">
+            <div class="container_contact">
+                <div style="text-align:center">
+                  <h2>Contact Me</h2>
+                  <p>Swing by for a cup of coffee, or leave me a message:</p>
+                </div>
+                    <form action="./index.html">
+                        <br>
+                      <label for="fname">First Name</label>
+                      <br>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                      <br>
+                      <label for="lname">Last Name</label>
+                      <br>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                      <br>
+                      <label for="subject">Subject</label>
+                      <br>
+                      <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+                      <br>
+                      <label for="Text_msg">Message</label>
+                      <br>
+                      <textarea id="Text_msg" name="Text_msg" placeholder="Write something.." style="height:170px" ></textarea>
+                      <br>
+                      <input id="contact_btn" type="button" value="Submit" onclick="sent_msg()">
+                    </form>
+              </div>
+        </div>
+        <footer class="footer_bottom" style="font-family: 'Almendra SC';font-size: 18px;">
+            <div id="time" style="align-content: center;"></div>
+            <a href="https://www.linkedin.com/in/nitin-kumar-1913b1158" >&#x2758;Linkedin&#x2758;</a>
+            <a href="https://github.com/nitin-kumar-iiith" >&#x2758;GitHub Profile&#x2758;</a>
+            <a href="https://www.codechef.com/users/nitink_iiith" >&#x2758;CodeChef&#x2758;</a>
+            <a href="https://www.hackerrank.com/2021202020_nitin" >&#x2758;Hacker Rank&#x2758;</a>
+            <a href="https://leetcode.com/user6027C/" >&#x2758;Leetcode&#x2758;</a>
+            <a href="./documents/Nitin-kumar.pdf" >&#x2758;Resume&#x2758;</a>
+            <br>
+            <a>&#x2758;Contact Me!&#x2758;</a>
+            <a href="mailto:nitin.kumar.iiith@gmail.com">&#x2758;nitin.kumar.iiith@gmail.com&#x2758;</a>
+        </footer>
+    </body>
+    <script>
+        function sent_msg(){
+            alert("Message Sent");
+        }
+        function openSidebar() {
+            document.getElementById("horizontal_nav").style.display = "block";
+            document.getElementById("navigator_button").style.display = "none";
+            /*var gfg_down =document.getElementById("nav_button_controller");gfg_down.remove();*/
+        }
+        function closeSidebar() {
+            document.getElementById("horizontal_nav").style.display = "none";
+            document.getElementById("navigator_button").style.display = "block";
+        }
+        function callHome(){
+            rem_event_list_home();
+            add_event_list_list();
+            add_event_list_div();
+            add_event_list_css();
+            add_event_contact();
+            document.getElementById("division_example").style.display = "none";
+            document.getElementById("External_CSS").style.display = "none";
+            document.getElementById("lists").style.display = "none";
+            document.getElementById("h_ome").style.display = "block";
+            document.getElementById("Contact_me").style.display = "none";
+            document.getElementById("a_home").style.backgroundColor = "#d79aeb";
+            document.getElementById("a_home").style.color = "white";
+        }
+        function calllists(){
+            rem_event_list_list();
+            add_event_list_div();
+            add_event_list_css();
+            add_event_list_home();
+            add_event_contact();
+            document.getElementById("division_example").style.display = "none";
+            document.getElementById("External_CSS").style.display = "none";
+            document.getElementById("lists").style.display = "block";
+            document.getElementById("h_ome").style.display = "none";
+            document.getElementById("Contact_me").style.display = "none";
+            document.getElementById("a_list").style.backgroundColor = "#d79aeb";
+            document.getElementById("a_list").style.color = "white";
+        }
+        function calldivision_example(){
+            add_event_list_list();
+            rem_event_list_div();
+            add_event_list_css();
+            add_event_list_home();
+            add_event_contact();
+            document.getElementById("division_example").style.display = "block";
+            document.getElementById("External_CSS").style.display = "none";
+            document.getElementById("lists").style.display = "none";
+            document.getElementById("h_ome").style.display = "none";
+            document.getElementById("Contact_me").style.display = "none";
+            document.getElementById("a_divis").style.backgroundColor = "#d79aeb";
+            document.getElementById("a_divis").style.color = "white";
+        }
+        function callContact(){
+            add_event_list_list();
+            add_event_list_div();
+            add_event_list_css();
+            rem_event_contact();
+            add_event_list_home();
+            document.getElementById("division_example").style.display = "none";
+            document.getElementById("External_CSS").style.display = "none";
+            document.getElementById("Contact_me").style.display = "block";
+            document.getElementById("lists").style.display = "none";
+            document.getElementById("h_ome").style.display = "none";
+            document.getElementById("a_contact").style.backgroundColor = "#d79aeb";
+            document.getElementById("a_contact").style.color = "white";
+        }
+        function callExternal_CSS(){
+            add_event_list_list();
+            add_event_list_div();
+            rem_event_list_css();
+            add_event_list_home();
+            add_event_contact();
+            document.getElementById("division_example").style.display = "none";
+            document.getElementById("External_CSS").style.display = "block";
+            document.getElementById("lists").style.display = "none";
+            document.getElementById("Contact_me").style.display = "none";
+            document.getElementById("h_ome").style.display = "none";
+            document.getElementById("a_css").style.backgroundColor = "#d79aeb";
+            document.getElementById("a_css").style.color = "white";
+        }
+        function add_event_contact(){
+            let a = document.getElementById("a_contact");
+            a.addEventListener("mouseover", function( event ) {
+                event.target.style.backgroundColor = "#958fe9";
+            });
+            a.addEventListener("mouseleave", function( event ) {
+                event.target.style.backgroundColor = "#767edf";
+            });
+            a.style.backgroundColor= "#767edf";
+            a.style.color= "f2f2f2";
+        }
+        function rem_event_contact(){
+            let old_element = document.getElementById("a_contact");
+            var new_element = old_element.cloneNode(true);
+            old_element.parentNode.replaceChild(new_element, old_element);
+            
+        }
+        function add_event_list_home(){
+            let a = document.getElementById("a_home");
+            a.addEventListener("mouseover", function( event ) {
+                event.target.style.backgroundColor = "#958fe9";
+            });
+            a.addEventListener("mouseleave", function( event ) {
+                event.target.style.backgroundColor = "#767edf";
+            });
+            a.style.backgroundColor= "#767edf";
+            a.style.color= "f2f2f2";
+        }
+        function rem_event_list_home(){
+            let old_element = document.getElementById("a_home");
+            var new_element = old_element.cloneNode(true);
+            old_element.parentNode.replaceChild(new_element, old_element);
+            
+        }
+        function add_event_list_css(){
+            let a = document.getElementById("a_css");
+            a.addEventListener("mouseover", function( event ) {
+                event.target.style.backgroundColor = "#958fe9";
+            });
+            a.addEventListener("mouseleave", function( event ) {
+                event.target.style.backgroundColor = "#767edf";
+            });
+            a.style.backgroundColor= "#767edf";
+            a.style.color= "#f2f2f2";
+        }
+        function rem_event_list_css(){
+            var old_element = document.getElementById("a_css");
+            var new_element = old_element.cloneNode(true);
+            old_element.parentNode.replaceChild(new_element, old_element);
+            
+        }
+        function add_event_list_list(){
+            let a = document.getElementById("a_list");
+            a.addEventListener("mouseover", function( event ) {
+                event.target.style.backgroundColor = "#958fe9";
+            });
+            a.addEventListener("mouseleave", function( event ) {
+                event.target.style.backgroundColor = "#767edf";
+            });
+            a.style.backgroundColor= "#767edf";
+            a.style.color= "#f2f2f2";
+        }
+        function rem_event_list_list(){
+            var old_element = document.getElementById("a_list");
+            var new_element = old_element.cloneNode(true);
+            old_element.parentNode.replaceChild(new_element, old_element);
+            
+        }
+        function add_event_list_div(){
+            let a = document.getElementById("a_divis");
+            a.style.backgroundColor = "#767edf";
+            a.style.color = "#f2f2f2";
+            a.addEventListener("mouseover", function( event ) {
+                event.target.style.backgroundColor = "#958fe9";
+            });
+            a.addEventListener("mouseleave", function( event ) {
+                event.target.style.backgroundColor = "#767edf";
+            });
+            a.style.backgroundColor= "#767edf";
+            a.style.color= "#f2f2f2";
+        }
+        function rem_event_list_div(){
+            var old_element = document.getElementById("a_divis");
+            var new_element = old_element.cloneNode(true);
+            old_element.parentNode.replaceChild(new_element, old_element);
+        }
+        //closeSidebar();
+        openSidebar();
+        callHome();
+        add_event_list_home();
+        add_event_list_list();
+        add_event_list_div();
+        add_event_list_css();
+        add_event_contact();
+        function getLocaltime(){
+            return new Date().toLocaleTimeString();
+        }
+        function displayTime() {
+            var x = new Date();
+            document.getElementById("time").innerHTML =x;
+            document.getElementById("time").style.color="white";
+        }
+        displayTime();
+        setInterval(displayTime, 1000);
+    </script>
+</html>

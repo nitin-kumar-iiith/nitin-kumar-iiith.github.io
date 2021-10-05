@@ -1,0 +1,346 @@
+html {
+  height: 100%;
+  width:100%;
+}
+body {
+  background-image: url("./images/img.jpeg");
+  /*background-size: 100% 100%;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-size: 300px 100px;*/
+  /*background-size: auto;*/
+  /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background-size5*/
+}
+.heading {
+  font-style: oblique;
+  color:#FCE6F9;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+.texts_home {
+  font-style: normal;
+  /*padding-left:0px ;*/
+  color:#FCE6F9;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  color:#FCE6F9;
+  text-align: center;
+}
+li {
+  color:#FCE6F9;
+  text-align: left;
+  margin-left: 45%;
+}
+nav {
+  display: block;
+  overflow: hidden;
+  background-color: #767edf;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-left: 20px;
+  padding: 2px 2px;
+}
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+nav a:hover {
+  background-color: #958fe9;
+  color: black;
+}
+  
+nav a.selected {
+  background-color: #d79aeb;
+  color: white;
+}
+
+div {
+  display: block;
+}
+.div1{
+  background-color:#ab92e7;
+  color:white;
+  padding:20px;
+}
+.div2{
+  background-color:#004e96;
+  color:white;
+  margin-top: 40px;
+  padding:20px;
+}
+.list_heading{
+  color: white;
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
+
+#navigator_button{
+  display: block;
+  overflow: hidden;
+  background-color: #767edf;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 2px 2px;
+}
+#vertical_nav{
+  display:none;margin-top: 0px; margin-bottom: 0px; margin-right: 0px; margin-left: 0px; padding: 2px 2px;
+}
+.close_open_button button{
+  background-color: #767edf;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  border: none;
+}
+
+.close_open_button button:hover{
+  display: block;
+  background-color: #958fe9;
+  color: #f2f2f2;
+  border: none;
+}
+
+.ver_nav_button{
+  overflow: hidden;
+  background-color: #767edf;
+  color: #f2f2f2;
+}
+.ver_nav_button button {
+  text-align: center;
+  background-color: #767edf;
+  display: block;
+  width: 100%;
+  color: #f2f2f2;
+  text-align: center;
+  border: none;
+}
+.ver_nav_button button:hover {
+  display: block;
+  background-color: #958fe9;
+  color: #f2f2f2;
+  border: none;
+}
+
+
+@media only screen and (min-width:481px) {
+  /* For Non- mobile phones: */
+body {
+  background-image: url("./images/img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+  #horizontal_nav{
+    visibility: visible;
+    display:block;
+  }
+#navigator_button{
+    display:none;
+    visibility: hidden;
+    margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 2px 2px;
+    
+  }
+  #vertical_nav_but{
+    display:none;
+    visibility: hidden;
+  }
+
+}
+@media only screen and (max-width:480px) {
+  /* For mobile phones: */
+  body {
+    background-image:none;
+    /*background-image: url("./images/img.jpeg");*/
+    /*background-color: #9783e2;*/
+    background-color: #ec9cec;
+}
+  /*#horizontal_nav{
+    visibility: hidden;
+    display:none;
+  }*/
+  #vertical_nav_but{
+    visibility: visible;
+    display:block;
+  }
+#profile_card{
+  width: 0%;
+  visibility: hidden;
+    display:none;
+}
+.hide_details{
+  visibility: hidden;
+    display:none;
+}
+  #navigator_button{
+    display: block;
+    visibility: visible;
+    margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 2px 2px;
+  }
+  nav {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 2px 2px;
+}
+nav a {
+  float: none;
+  display: block;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.footer_bottom a {
+  display: block; 
+}/*
+.texts_home {
+  font-style: normal;
+  /*padding-left:0px ;*//*
+  color:#FCE6F9;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}*//*
+.card{
+  width: 0%;
+  visibility: hidden;
+    display:none;
+}*/
+.outer{
+  display: block;
+}
+
+.texts_home{
+  padding-top: 300px;
+}
+}
+.footer_bottom{
+  width: 100%;
+  overflow: hidden;
+  height: 10%;
+  float:none;
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;
+  align-content: center;
+  background-color:#004e96;
+  color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+
+
+}
+.footer_bottom a {
+  background-color:#004e96;
+  color:white;
+
+  text-align: center;
+  color: #f2f2f2;
+  width: 100%;
+  float:none;  
+  align-content: center;
+  text-decoration: none;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+tr{
+  border-bottom: 2px solid #ab92e7;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  color: white;
+  border: 3px solid #ab92e7;
+
+}
+th, td {
+
+  border-bottom: 2px solid #ab92e7;
+}
+tr:nth-child(even) {background-color: #004e96;}
+/* Style inputs */
+            input[type=text], select, textarea {
+              width: 95%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+            
+            #contact_btn {
+              background-color: #004e96;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              cursor: pointer;
+            }
+            
+            #contact_btn:hover {
+              background-color: #d79aeb;
+              border: 1px #004e96;
+            }
+            
+            /* Style the container/contact section */
+            .container_contact {
+              border-radius: 5px;
+              background-color: #ab92e7;
+              padding: 10px;
+            }
+            
+            /* Create two columns that float next to eachother */
+            .column {
+              float: left;
+              width: 50%;
+              margin-top: 6px;
+              padding: 20px;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 480px) {
+              #container_contact, #contact_btn {
+                width: 100%;
+                margin-top: 0;
+              }
+            }
+            
